@@ -1,8 +1,8 @@
 # Summary
 
 * [简介](README.md)
-* [开发一个NPM包](npm-package/README.md)
-    * [字符串验证程序](npm-package/validator.md)
+* [开发NPM包](npm-package/README.md)
+    * [开发node-validator](npm-package/validator.md)
     * [编写测试用例](npm-package/test.md)
     * [管理NPM包](npm-package/manage.md)
 * [Node.js命令行工具](cli/README.md)
@@ -13,4 +13,5 @@
     * [服务器部署](express/deploy.md)
 * [附录](appendix/README.md)
     * [Node.js基础](appendix/basic.md)
+    * [NPM基础](appendix/npm.md)
     * [参考](appendix/reference.md)

@@ -4,6 +4,8 @@
 
 本书尽量通过通俗易懂的文字、通过三个Node.js项目（分别为[node-validator](https://github.com/SFantasy/node-validator), [node-translator](https://github.com/SFantasy/node-translator), [Riki](https://github.com/SFantasy/Riki)）的开发过程，帮助读者掌握一些基本的Node.js知识和开发技巧。
 
+> **NOTE**: 文中关于Node.js与NPM的有关内容，可以参考附录中的[Node.js基础](../appendix/basic.md)与[NPM基础](../appendix/npm.md)
+
 对本书的内容有任何疑问，都可以通过本书的Github主页[issues](https://github.com/SFantasy/node-in-action/issues)提出。
 
 ---
