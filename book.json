@@ -1,9 +1,7 @@
 {
-    "plugins": ["autocover"],
-    "pluginsConfig": {
-        "autocover": {
-            "title": "Node.js实战",
-            "author": "Fantasy Shao"
-        }
-    }
+    "plugins": [],
+    "links": {
+        "sidebar": {}
+    },
+    "pluginConfig": {}
 }
