@@ -10,6 +10,6 @@
 
 ---
 
-本作品采用[知识共享署名 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by/3.0/cn/)进行许可。
+本作品采用[CC-BY-NC 4.0协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可。
 
-![知识共享许可协议](https://i.creativecommons.org/l/by/3.0/cn/88x31.png)
+![知识共享许可协议](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
