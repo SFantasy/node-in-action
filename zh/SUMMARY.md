@@ -1,10 +1,10 @@
 # Summary
 
 * [简介](README.md)
-* [开发NPM包](npm-package/README.md)
+* [开发NPM模块](npm-package/README.md)
     * [开发node-validator](npm-package/validator.md)
     * [编写测试用例](npm-package/test.md)
-    * [管理NPM包](npm-package/manage.md)
+    * [管理NPM模块](npm-package/manage.md)
 * [Node.js命令行工具](cli/README.md)
     * [使用request](cli/request.md)
 * [Express站点开发](express/README.md)
