@@ -1,6 +1,6 @@
 # Node.js in action
 
-This is a tiny book about Node.js. It aims to help the ones who are new to Node.js learn to create theire own Node.js projects and have fun coding with it.
+This is a tiny book about Node.js. It aims to help the ones who are new to Node.js to learn to create their own Node.js projects and have fun coding with it.
 
 The book will try hard to explain things in brief sentences and brings your three tutorial of developing Node.js projects. You would learn a lot during the reading period.
 
