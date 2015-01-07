@@ -1,6 +1,8 @@
 # 开发node-validator
 
-顾名思义，我们要开发的是一个验证字符串合法性的NPM模块。首先我们需要建立一个包的目录：
+"node-validator"，顾名思义，我们要开发的是一个验证字符串合法性的NPM模块。
+
+首先我们需要建立一个包的目录：
 
 ```
 node-validator
@@ -62,3 +64,5 @@ var validator = require('validator-test');
 
 validator.isEmail('foo@bar.net'); // true
 ```
+
+我们可以不断的在这个对象中添加函数，当然也可以根据不同的类别分成不同的文件模块，通过`require`的方式构成我们的第一个完整的模块。
