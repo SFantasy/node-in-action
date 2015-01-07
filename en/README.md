@@ -6,7 +6,7 @@ The book will try hard to explain things in brief sentences and brings your thre
 
 > **NOTE**: If you meet problems about Node.js and NPM, refer to the  sections in appendix: [Node.js basics](../appendix/basic.md) and [NPM basics](../appendix/npm.md)
 
-And if you have any question, fell free to create issues on the book's [Github](https://github.com/SFantasy/node-in-action/issues)
+And if you have any question, feel free to create issues on the book's [Github](https://github.com/SFantasy/node-in-action/issues)
 
 ---
 
