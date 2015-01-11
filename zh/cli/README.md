@@ -17,3 +17,19 @@ console.log('Hello CLI');
 ## 命令行参数
 
 在命令行之中，我们往往需要加入很多的参数。[TJ](https://github.com/tj)开发了一个非常实用的模块 -- [Commander.js](https://github.com/tj/commander.js)，专门用于获取命令行参数，从而方便程序的编写。
+
+例如，我们可以这样使用commander.js:
+
+```sh
+#!/usr/bin/env node
+
+var program = require('commander');
+
+program.version('0.0.1').parse(process.argv);
+```
+
+然后就可以这样运行可执行文件获取其版本：
+
+```sh
+node test --version
+```
