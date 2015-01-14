@@ -48,5 +48,3 @@ request('http://fanyi.youdao.com/openapi.do?keyfrom=node-translator&key=20589110
 ```
 
 可以发现调用接口后返回的body中的内容即为我们所需的JSON数据。
-
-## 处理数据
