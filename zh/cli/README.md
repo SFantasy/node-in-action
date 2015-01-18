@@ -34,6 +34,8 @@ program.version('0.0.1').parse(process.argv);
 node test --version
 ```
 
+此工具适合那些需要传入很多参数并获取的程序。
+
 ## node-translator
 
 node-translator是一个在命令行中使用有道字典的API进行翻译的命令行工具，在本章中，我们就要完成这样一个非常实用的命令行工具：

@@ -8,6 +8,7 @@
 * [开发命令行工具](cli/README.md)
     * [调用接口](cli/request.md)
     * [美化输出](cli/output.md)
+    * [完善工具](cli/finish.md)
 * [Express站点开发](express/README.md)
     * [Express](express/express.md)
     * [MVC](express/mvc.md)
