@@ -10,7 +10,7 @@
     * [美化输出](cli/output.md)
     * [完善工具](cli/finish.md)
 * [Express站点开发](express/README.md)
-    * [Express](express/express.md)
+    * [使用Express](express/express.md)
     * [MVC](express/mvc.md)
     * [服务器部署](express/deploy.md)
 * [附录](appendix/README.md)
