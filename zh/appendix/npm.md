@@ -55,9 +55,3 @@ npm publish
 ```
 
 无论是第一次发布模块，亦或是更新模块之后发布更新到NPM上，都需要这个命令。不过要注意的是，在发布之前需要通过`npm adduser`添加注册过的NPM账号。
-
-
-
-## 文档
-
-- [NPM Documentation](https://docs.npmjs.com/all)

@@ -1,1 +1,4 @@
 # 参考
+
+- [Node.js API](http://nodejs.org/documentation/api/)
+- [NPM Documentation](https://docs.npmjs.com/all)

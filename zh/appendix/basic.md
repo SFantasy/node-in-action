@@ -20,7 +20,7 @@ node test.js
 
 Node.js的版本可以通过[NVM](https://github.com/creationix/nvm)以及[N](https://github.com/tj/n)进行管理。这两者我都曾经用过，相比而言，前者可能做的更为的完善、易用。当然你也不妨将两者都尝试一下，选择更为适合自己的。
 
-## CommonJS规范
+## 模块系统
 
 Node.js实现的是[CommonJS规范](http://wiki.commonjs.org/wiki/Introduction)：
 
@@ -49,4 +49,17 @@ module.exports = function () {
 ```js
 exports.foo = function () {};
 exports.bar = function () {};
+```
+
+## 最简单的Node.js服务器
+
+使用Node.js的`http`模块可以创建一个最简易的HTTP服务器：
+
+```sh
+var http = require('http');
+
+http.createServer(function (req, res) {
+    res.send('Hello');
+    res.end();
+}).listen(3000);
 ```
