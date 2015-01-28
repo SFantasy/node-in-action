@@ -55,7 +55,7 @@ exports.bar = function () {};
 
 使用Node.js的`http`模块可以创建一个最简易的HTTP服务器：
 
-```sh
+```js
 var http = require('http');
 
 http.createServer(function (req, res) {
@@ -63,3 +63,5 @@ http.createServer(function (req, res) {
     res.end();
 }).listen(3000);
 ```
+
+随后访问浏览器：`localhost:3000` 便可看到"Hello"字样。
