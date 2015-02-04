@@ -11,7 +11,7 @@
     * [完善工具](cli/finish.md)
 * [Express站点开发](express/README.md)
     * [使用Express](express/express.md)
-    * [MVC](express/mvc.md)
+    * [开发Express应用](express/develop.md)
     * [服务器部署](express/deploy.md)
 * [附录](appendix/README.md)
     * [Node.js基础](appendix/basic.md)
