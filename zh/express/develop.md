@@ -18,6 +18,17 @@ MVC是很多应用开发时都会采用的一种「架构模式」，会把一�
 
 这次我也是用的MVC的结构，同时稍微扩充了一个Service层把数据定义和操作分割：Model只定义数据，Service定义操作数据的方法。
 
+## 定义路由
+
+在项目中，我们可以在Controller中定义路由的规则，但是个人觉得将路由的部分从中拆出来单独的作为一个文件，将所有的路由都定义在一起会比较清晰。且，路由的代码实际上并不多，一般一个页面的操作的路由代码仅仅只有1~3行，而且如果将路由放在不同的目录中会需要同时在这些文件中`require('express')`。
+
+```js
+app.get('/', site.index);
+app.post('/register', user.register);
+```
+
+其中`site`与`user`分别为两个Controller的名称，分别定义不同的`GET`或者`POST`路由规则。
+
 ## MongoDB
 
 MongoDB对于Node而言确实很方便，由于MongoDB使用的是JSON风格的文档存储结构，所以特别是处理数据的时候就像是在处理JavaScript的对象一样。
