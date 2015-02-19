@@ -40,3 +40,38 @@ pm2 start ./bin/www
 ```
 
 这样就可以通过npm start来运行我们的项目了，如果使用项目默认的3000端口的话就可以直接运行了。
+
+## Nginx
+
+在Ubuntu的机器上安装Nginx非常简单：
+
+```
+sudo apt-get install nginx
+```
+
+安装完后Nginx就已经启动了，访问EC2的public IP可以看到如下界面：
+
+![aws-nginx](http://fantasyshao-blog.qiniudn.com/aws-nginx.png)
+
+接下来需要修改Nginx的配置文件才能将3000端口转发到Nginx的80端口上，配置文件默认是在`/etc/nginx/nginx.conf`:
+
+```
+upstream riki {
+    server 127.0.0.1:3000;
+}
+
+server {
+    listen 80;
+    server_name localhost;
+
+    location / {
+        proxy_pass http://riki;
+    }
+}
+```
+
+这里我是简单粗暴的把原有配置文件中的include的内容注释掉了。
+
+于是乎，我们就可以直接通过IP访问Riki了：
+
+![aws-riki](http://fantasyshao-blog.qiniudn.com/aws-riki-2.png)
