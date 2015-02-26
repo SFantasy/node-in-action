@@ -55,3 +55,7 @@ npm publish
 ```
 
 无论是第一次发布模块，亦或是更新模块之后发布更新到NPM上，都需要这个命令。不过要注意的是，在发布之前需要通过`npm adduser`添加注册过的NPM账号。
+
+## NPM镜像
+
+鉴于NPM在国内会受到GFW的影响，可以选择使用[TaoNPM](https://npm.taobao.org/)作为NPM的镜像，方便安装NPM中的模块。
