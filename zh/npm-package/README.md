@@ -8,7 +8,7 @@
 
 接下来，可以通过简单的代码来看看这个即将完成的模块实现的功能，当然你也可以使用Node.js的REPL：
 
-```
+```js
 var validator = require('is-valid');
 
 validator.isEmail('foo@bar.net'); // true
