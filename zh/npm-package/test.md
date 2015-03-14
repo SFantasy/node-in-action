@@ -20,7 +20,7 @@ mocha集成了很多的特性，用户可以根据项目的特点选择合适的
 var assert = require('assert');
 ```
 
-"assert"中包含了很多Node.js中有关断言的模块，例如[shoud.js](https://github.com/visionmedia/should.js), [expext](https://github.com/LearnBoost/expect.js)等。这些模块多数都是行为驱动开发（BDD）的实践。
+"assert"中包含了很多Node.js中有关断言的模块，例如[shoud.js](https://github.com/visionmedia/should.js), [expect](https://github.com/LearnBoost/expect.js)等。这些模块多数都是行为驱动开发（BDD）的实践。
 
 - assert示例
 
