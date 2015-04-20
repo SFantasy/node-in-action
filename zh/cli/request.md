@@ -22,7 +22,8 @@ request('http://www.google.com', function (error, response, body) {
 
 ## 有道词典
 
-有道词典提供了开发者注册、申请调用API的[开放平台](http://fanyi.youdao.com/openapi)，开发者在填写了必要的信息之后就可以获得不限时间的API key。
+有道词典提供了开发者注册、申请调用API的[开放平台](http://fanyi.youdao.com/openapi)，开发者在填写了必要的信息之后就可以获得不
+时间的API key。
 
 基本的API请求形式也比较简单，可以在URL中添加参数后直接通过GET的方式请求之，例如有以下URL:
 
@@ -32,7 +33,7 @@ http://fanyi.youdao.com/openapi.do?keyfrom=node-translator&key=2058911035&type=d
 
 具体的参数就不一一分析了，这些都可以在开放平台的文档中找到。
 
-接下来，可以使用request测试一下接口调用：
+接下来，可以使用request测试一下接口调用，我们将会通过接口获取单词"test"的中文释义：
 
 ```js
 var request = require('request');
