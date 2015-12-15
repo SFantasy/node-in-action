@@ -6,6 +6,8 @@
 
 对本书的内容有任何疑问，都可以通过本书的Github主页[issues](https://github.com/SFantasy/node-in-action/issues)提出。
 
+欢迎给本书点上一个[Star](https://github.com/SFantasy/node-in-action)。
+
 ---
 
 本作品采用[CC-BY-NC 4.0协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可。
