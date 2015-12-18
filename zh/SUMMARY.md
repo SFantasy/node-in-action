@@ -17,3 +17,4 @@
     * [Node.js基础](appendix/basic.md)
     * [NPM基础](appendix/npm.md)
     * [参考](appendix/reference.md)
+    * [更新说明](appendix/update.md)
