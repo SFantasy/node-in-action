@@ -1,6 +1,6 @@
 # Node.js实战
 
-这是一本关于Node.js实战的小书（更新说明可以[点此查看](./appendix/update.md)），旨在让Node.js初学者能够快速创建自己的Node.js项目并享受其中的开发和探索的乐趣。
+这是一本关于Node.js实战的小书（更新说明可以[点此查看](./zh/appendix/update.md)），旨在让Node.js初学者能够快速创建自己的Node.js项目并享受其中的开发和探索的乐趣。
 
 本书尽量通过通俗易懂的文字、并通过作者的三个Node.js项目的开发过程，帮助读者掌握一些基本的Node.js知识和开发技巧：
 
