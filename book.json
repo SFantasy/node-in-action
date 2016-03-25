@@ -1,7 +1,10 @@
 {
     "plugins": [],
     "links": {
-        "sidebar": {}
+        "sidebar": {
+          "Author": "https://github.com/SFantasy",
+          "Star on Github": "https://github.com/SFantasy/node-in-action"
+        }
     },
     "pluginConfig": {}
 }
