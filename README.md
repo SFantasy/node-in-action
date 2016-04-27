@@ -10,6 +10,8 @@
 
 > **注意**: 如果还不了解Node.js与NPM的有关内容，可以先浏览一下附录中的[Node.js基础](./appendix/basic.md)与[NPM基础](./appendix/npm.md)
 
+![Cover by oreilly-generator.com](cover.jpg)
+
 对本书的内容有任何疑问或建议，都可以在本书的Github主页以[issues](https://github.com/SFantasy/node-in-action/issues)的方式提出，或者写[邮件](mailto:fantasyshao@icloud.com)给作者反馈。
 
 最后，欢迎给本书点上一个[Star](https://github.com/SFantasy/node-in-action)。
