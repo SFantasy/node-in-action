@@ -17,3 +17,4 @@
     * [Node.js basics](appendix/basic.md)
     * [NPM basics](appendix/npm.md)
     * [Reference](appendix/reference.md)
+    * [Update](appendix/update.md)
