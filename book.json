@@ -2,8 +2,8 @@
     "plugins": [],
     "links": {
         "sidebar": {
-          "Author": "https://github.com/SFantasy",
-          "Star on Github": "https://github.com/SFantasy/node-in-action"
+          "Donate": "http://blog.fantasy.codes/donate/",
+          "View on Github": "https://github.com/SFantasy/node-in-action"
         }
     },
     "pluginConfig": {}

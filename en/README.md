@@ -8,6 +8,8 @@ Before reading this book, you should have already know much about the JavaScript
 
 And if you have any question or doubt about my poor English, feel free to create issues on the book's [Github](https://github.com/SFantasy/node-in-action/issues) or send [E-mail to me](mailto:fantasyshao@icloud.com).
 
+One more thing, if you enjoy reading this book, [star](https://github.com/SFantasy/node-in-action) the repository on Github or [donate](http://blog.fantasy.codes) me a cup of coffee via Alipay.
+
 ---
 
 This book is licensed under [CC-BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/).
