@@ -1,10 +1,10 @@
-# 使用Express
+# 使用 Express
 
-[Express](http://expressjs.com/)堪称是Node.js领域最为流行的Web开发框架，由著名的开发者[TJ](https://github.com/tj)开发，现在已经衍生到4.x版本。
+[Express](http://expressjs.com/) 堪称是 Node.js 领域最为流行的Web开发框架，由著名的开发者 [TJ](https://github.com/tj) 开发，现在已经衍生到4.x版本。
 
 ## Express的"Hello World"
 
-以下是一个简单的使用Express作为服务器的代码，通过`res.send()`方法将`Hello World`字符串作为Response返回：
+以下是一个简单的使用 Express 作为服务器的代码，通过 `res.send()` 方法将 `Hello World` 字符串作为 Response 返回：
 
 ```js
 var express = require('express');
@@ -19,7 +19,7 @@ app.listen(3000, function () {
 });
 ```
 
-运行`app.js`:
+运行 `app.js`:
 
 ```sh
 node app.js
