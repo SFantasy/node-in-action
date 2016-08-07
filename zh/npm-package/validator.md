@@ -29,9 +29,11 @@ module.exports = function () {
 };
 ```
 
-是的，这就是NPM版本的「Hello, World!」。可以通过`node index.js`来测试、运行一下刚刚编写的代码。
+是的，这就是NPM版本的 "Hello, World!""。
 
-在CommonJS的模块系统中，`module.exports`可以输出一个函数，也可以输出一个对象。所以我们可以这样编写`lib`中的`index.js`:
+这时候可以创建另外一个 JavaScript 文件，然后 `require('./lib')` 来测试、运行一下刚刚编写的代码。
+
+在 CommonJS 的模块系统中，`module.exports` 可以输出一个函数，也可以输出一个对象。所以我们可以这样编写`lib`中的`index.js`:
 
 ```js
 module.exports = {
@@ -55,9 +57,9 @@ module.exports = {
 
 那么到了这里，第一个版本的`node-validator`就已经完工了。
 
-通过`npm link`可以将当前的NPM包链接到存放系统中NPM模块的文件夹。也就是说，当前文件夹的改动会在运行的时候体现出来，所以也是开发NPM模块时候的利器。
+通过 `npm link` 可以将当前的NPM包链接到存放系统中 NPM 模块的文件夹。也就是说，当前文件夹的改动会在运行的时候体现出来，所以也是开发NPM模块时候的利器。
 
-假设我们在`package.json`文件中将`name`命名为`validator-test`，那么就已经可以通过如下代码使用了新鲜出炉的模块了：
+假设我们在 `package.json` 文件中将 `name` 命名为 `validator-test`，那么就已经可以通过如下代码使用了新鲜出炉的模块了：
 
 ```js
 var validator = require('validator-test');
