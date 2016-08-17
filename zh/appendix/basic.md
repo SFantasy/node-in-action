@@ -1,8 +1,8 @@
-# Node.js基础
+# Node.js 基础
 
-如果你已经有Node.js的编程基础，那么可以跳过此章节，但也不妨将其作为一个参考。
+如果你已经有 Node.js 的编程基础，那么可以跳过此章节，但也不妨将其作为一个参考。
 
-## Node.js版本的Hello World
+## Node.js 版本的 Hello World
 
 ```js
 console.log('Hello World');
@@ -14,15 +14,19 @@ console.log('Hello World');
 node test.js
 ```
 
-## Node.js的版本管理
+## Node.js 的版本管理
 
-就现阶段来看，Node.js在稳定版与最新版本之间还是存在不少差异的。造成这些差异的原因，包含了诸如V8的版本，诸如对ES6特性的实现等。所以，切换Node.js的版本可能是经常会做的一件事情。
+Node.js 的稳定版，亦即 LTS (Long Time Support) 版本是最为主流使用的版本，一般而言版本号为偶数 -- 4，6 等，而奇数版本的则为两个稳定版之间的中间产物。因此建议在使用的时候安装 LTS 的版本。
 
-Node.js的版本可以通过[NVM](https://github.com/creationix/nvm)以及[N](https://github.com/tj/n)进行管理。这两者我都曾经用过，相比而言，前者可能做的更为的完善、易用。当然你也不妨将两者都尝试一下，选择更为适合自己的。
+不同版本的 Node.js 还是有不少差异的，而造成这些差异的原因，包含了诸如 V8 的版本，诸如对 ES6 等标准中特性的实现等，所以，切换 Node.js 的版本可能是经常会做的一件事情。
+
+Node.js 的版本可以通过 [NVM](https://github.com/creationix/nvm) 以及 [N](https://github.com/tj/n) 进行管理。
+
+相比这两个工具而言，前者可能做的更为的完善、易用。当然你也不妨将两者都尝试一下，选择更为适合自己的。
 
 ## 模块系统
 
-Node.js实现的是[CommonJS规范](http://wiki.commonjs.org/wiki/Introduction)：
+Node.js 实现的是[CommonJS规范](http://wiki.commonjs.org/wiki/Introduction)：
 
 - 使用`global`定义全局对象
 
