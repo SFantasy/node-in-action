@@ -4,7 +4,7 @@
 
 ## 使用request
 
-[request](https://www.npmjs.com/package/request) 是 NPM 中被使用最多的模块之一，每天有20~30万左右的下载量。
+[request](https://www.npmjs.com/package/request) 是 npm 中被使用最多的模块之一，每天有20~30万左右的下载量。
 
 正如前端开发中 jQuery 的 Ajax 方法和 iOS 开发中的 AFNetworking 一样，在 Node.js 应用中被广泛当作请求接口之用。
 

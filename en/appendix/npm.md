@@ -1,18 +1,18 @@
-# NPM
+# npm
 
 ## Introduction
 
-NPM is usually short for Node Package Manager, and there exists many other [alias](https://github.com/npm/npm-expansions).
+npm is usually short for Node Package Manager, and there exists many other [alias](https://github.com/npm/npm-expansions).
 
-In my opinion, the relationship between Node.js and NPM is just similar with Maven on Java, PIP on Python and GEM on Ruby.
+In my opinion, the relationship between Node.js and npm is just similar with Maven on Java, PIP on Python and GEM on Ruby.
 
-With NPM, you could manage the dependencies of your Node.js projects with ease.
+With npm, you could manage the dependencies of your Node.js projects with ease.
 
 ## Basic use
 
-The basic usage of NPM includes dependencies management, module management and scripts.
+The basic usage of npm includes dependencies management, module management and scripts.
 
-> Surely it is better to refer the documentation of NPM or via `npm -l` or `man npm` to read the documentation.
+> Surely it is better to refer the documentation of npm or via `npm -l` or `man npm` to read the documentation.
 
 ### Install dependencies
 
@@ -58,6 +58,6 @@ npm publish
 
 No matter whether it is the first time you publish it, use this command. And it is a must to `npm adduse` before you publish.
 
-## NPM mirrors
+## npm mirrors
 
-Due to the existence of "GFW", developers in China can use [TaoNPM](https://npm.taobao.org/) as the mirror of NPM and install modules without panic.
+Due to the existence of "GFW", developers in China can use [Taonpm](https://npm.taobao.org/) as the mirror of npm and install modules without panic.

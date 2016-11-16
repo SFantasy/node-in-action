@@ -14,7 +14,7 @@ var colors = require('colors');
 console.log('Color'.green);
 ```
 
-By adding the name of a color after a string, we could make the output string colorful. For the list of colors it supports, you'd better refer the document on Github or NPM.
+By adding the name of a color after a string, we could make the output string colorful. For the list of colors it supports, you'd better refer the document on Github or npm.
 
 ## Format the output style
 

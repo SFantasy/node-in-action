@@ -8,7 +8,7 @@
 - [node-translator](https://github.com/SFantasy/node-translator)
 - [Riki](https://github.com/SFantasy/Riki)
 
-> **注意**: 如果还不了解 Node.js 与 NPM 的有关内容，可以先浏览一下附录中的[Node.js 基础](./appendix/basic.md)与[NPM 基础](./appendix/npm.md)
+> **注意**: 如果还不了解 Node.js 与 npm 的有关内容，可以先浏览一下附录中的[Node.js 基础](./appendix/basic.md)与[npm 基础](./appendix/npm.md)
 
 对本书的内容有任何疑问或建议，都可以在本书的 Github 主页以[issues](https://github.com/SFantasy/node-in-action/issues)的方式提出，或者写[邮件](mailto:fantasyshao@icloud.com)给作者反馈。
 

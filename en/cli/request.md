@@ -4,7 +4,7 @@ The core feature of our command line tool is to request the API of Youdao dic. A
 
 ## Use request
 
-[request](https://www.npmjs.com/package/request) is one of the most popular module on NPM, it has been downloaded for 20~30 million time per day.
+[request](https://www.npmjs.com/package/request) is one of the most popular module on npm, it has been downloaded for 20~30 million time per day.
 
 Just like Ajax methods of jQuery used in Front-end development and AFNetworking in iOS development, **request** is widely used in Node.js applications for requesting APIs.
 

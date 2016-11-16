@@ -1,10 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [Develop a NPM package](npm-package/README.md)
+* [Develop a npm package](npm-package/README.md)
     * [Develop node-validator](npm-package/validator.md)
     * [Write test cases](npm-package/test.md)
-    * [Manage NPM package](npm-package/manage.md)
+    * [Manage npm package](npm-package/manage.md)
 * [Node.js command line tool](cli/README.md)
     * [Request API](cli/request.md)
     * [Beautify the output](cli/output.md)
@@ -15,6 +15,6 @@
     * [Server deploy](express/deploy.md)
 * [Appendix](appendix/README.md)
     * [Node.js basics](appendix/basic.md)
-    * [NPM basics](appendix/npm.md)
+    * [npm basics](appendix/npm.md)
     * [Reference](appendix/reference.md)
     * [Update](appendix/update.md)

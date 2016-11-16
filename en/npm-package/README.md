@@ -1,8 +1,8 @@
-# Develop NPM package
+# Develop npm package
 
-In the first chapter, I will introduce you the develop process of [node-validator](https://github.com/SFantasy/node-validator) and give your some instructions about how to develop a NPM module, write test case about it and finally publish it to the NPM. Anyway, welcome to the family of NPM.
+In the first chapter, I will introduce you the develop process of [node-validator](https://github.com/SFantasy/node-validator) and give your some instructions about how to develop a npm module, write test case about it and finally publish it to the npm. Anyway, welcome to the family of npm.
 
-Before develop the first NPM module, let's have a look at what it is like.
+Before develop the first npm module, let's have a look at what it is like.
 
 Firstly, you can have `node-validator` installed on your own computer with a simple command `npm install is-valid` in the Node.js REPL or create an empty JavaScript file in any place:
 

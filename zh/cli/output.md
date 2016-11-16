@@ -14,7 +14,7 @@ var colors = require('colors');
 console.log('Color'.green);
 ```
 
-只需要简单的在字符串之后添加想要输出的颜色即可。具体支持的颜色可以移步其NPM或者Github上的文档查阅。
+只需要简单的在字符串之后添加想要输出的颜色即可。具体支持的颜色可以移步其npm或者Github上的文档查阅。
 
 ## 调整输出格式
 

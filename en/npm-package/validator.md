@@ -1,6 +1,6 @@
 # A string validator
 
-We are going to develop a NPM module which is used to validate string.
+We are going to develop a npm module which is used to validate string.
 
 First of all, build the folder structure of a package:
 
@@ -25,11 +25,11 @@ Creating a `index.js` file in the `lib` in order to write the core of our moudle
 
 ```js
 module.exports = function () {
-    console.log('Hello NPM!');
+    console.log('Hello npm!');
 }
 ```
 
-The program above is the NPM version of the well-known "Hello World". There's no problem to use `node index.js` to have a test of it.
+The program above is the npm version of the well-known "Hello World". There's no problem to use `node index.js` to have a test of it.
 
 In the module system of CommonJS, `module.exports` can output a function or an object. So we can easily write codes like this:
 
@@ -55,7 +55,7 @@ module.exports = {
 
 Up to now, the first alpha version of `node-validator` is ready for use.
 
-Using `npm link` command could place the current module to the system's NPM module folders. In the other words, if we modify the codes in our project, we could feel that when using the module.
+Using `npm link` command could place the current module to the system's npm module folders. In the other words, if we modify the codes in our project, we could feel that when using the module.
 
 Assuming we have changed the name to `validator-test` in the `package.json` file, then the code below can work as expected:
 

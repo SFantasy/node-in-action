@@ -1,6 +1,6 @@
 # 开发node-validator
 
-"node-validator"，顾名思义，我们要开发的是一个验证字符串合法性的NPM模块。
+"node-validator"，顾名思义，我们要开发的是一个验证字符串合法性的npm模块。
 
 首先我们需要建立一个包的目录：
 
@@ -25,11 +25,11 @@ module.exports = require('./lib');
 
 ```js
 module.exports = function () {
-    console.log('Hello NPM!');
+    console.log('Hello npm!');
 };
 ```
 
-是的，这就是NPM版本的 "Hello, World!""。
+是的，这就是npm版本的 "Hello, World!""。
 
 这时候可以创建另外一个 JavaScript 文件，然后 `require('./lib')` 来测试、运行一下刚刚编写的代码。
 
@@ -57,7 +57,7 @@ module.exports = {
 
 那么到了这里，第一个版本的`node-validator`就已经完工了。
 
-通过 `npm link` 可以将当前的NPM包链接到存放系统中 NPM 模块的文件夹。也就是说，当前文件夹的改动会在运行的时候体现出来，所以也是开发NPM模块时候的利器。
+通过 `npm link` 可以将当前的npm包链接到存放系统中 npm 模块的文件夹。也就是说，当前文件夹的改动会在运行的时候体现出来，所以也是开发npm模块时候的利器。
 
 假设我们在 `package.json` 文件中将 `name` 命名为 `validator-test`，那么就已经可以通过如下代码使用了新鲜出炉的模块了：
 
